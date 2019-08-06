@@ -33,9 +33,9 @@ loop do
   number_of_vomi = gets
 
   if number_of_vomi =~ /[[:digit:]]/
+    number_of_vomi.to_i.times {p vomi.generate}
     break
   else
     p "ERREUR: Tu dois me dire combien de fois je vomis !!!"
   end
 end
-number_of_vomi.to_i.times {p vomi.generate}
