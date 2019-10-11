@@ -40,5 +40,6 @@ loop do
     break
   else
     p "ERREUR: Tu dois me dire combien de fois je vomis !!!"
+    p "ERRORCODE: 0x218394: y o u ' r e  n o t  r e a d y  t o  u s e  t h e  v o m i t  y e t" 
   end
 end
