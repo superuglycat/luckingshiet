@@ -26,6 +26,9 @@ class SuperVomi
 
 end
 
+
+# Runtime
+
 vomi = SuperVomi.new('zoophile', 'necrophile', 'pedophile', 'flatuphile', 'alektotophile', 'pnigophile', 'emetophile', 'scatophile')
 
 loop do 
