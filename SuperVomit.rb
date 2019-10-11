@@ -28,14 +28,16 @@ end
 
 
 # Runtime
-
-vomi = SuperVomi.new('zoophile', 'necrophile', 'pedophile', 'flatuphile', 'alektotophile', 'pnigophile', 'emetophile', 'scatophile')
+testinglist = ['zoophile', 'necrophile', 'pedophile', 'flatuphile', 'alektotophile', 'pnigophile', 'emetophile', 'scatophile']
+vomi = SuperVomi.new(testinglist)
 
 loop do 
+  # * ... intuitive prompt
   p "Combien dois-je generer de vomi ?"
   number_of_vomi = gets
 
   if number_of_vomi =~ /[[:digit:]]/
+    # * ... generate vomits
     number_of_vomi.to_i.times {p vomi.generate}
     break
   else
