@@ -19,7 +19,7 @@ class SuperVomi # * ... HAI DIDDLE DEE DEE
     arr2 = [] # * ... Dîner.
     list.each{|k| arr2 << k.delete_suffix(suffix)} # * ... Dîner.
     arr2 = arr2.join # * ... Dîner.
-    arr2 << "phile" # * ... Dîner.
+    arr2 << suffix # * ... Dîner.
   return arr2 # * ... Dîner.
   end # * ... Dîner.
 
